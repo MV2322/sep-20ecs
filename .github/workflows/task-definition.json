@@ -1,9 +1,9 @@
 {
-	"family": "latest-tdf",
+	"family": "april06-tdf",
 	"taskRoleArn": "arn:aws:iam::767398097747:role/ecstaskrole",
 	"containerDefinitions": [{
 		"name": "apache-container",
-		"image": "767398097747.dkr.ecr.us-east-2.amazonaws.com/latest-repo:GIT_COMMIT",
+		"image": "767398097747.dkr.ecr.us-east-2.amazonaws.com/ecs-repo-april06:GIT_COMMIT",
 		"cpu": 400,
 		"memory": 300,
 		"memoryReservation": 200,
